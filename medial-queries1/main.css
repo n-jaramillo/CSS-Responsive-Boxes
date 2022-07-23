@@ -1,3 +1,55 @@
 body {
   background: blanchedalmond;
 }
+
+.a {
+  background-color: blue;
+  width: 100%;
+  height: 350px;
+  margin: 0px auto 20px;
+  border: 2px solid black;
+}
+
+.b {
+  display: inline-block;
+  background-color: purple;
+  width: 70%;
+  height: 500px;
+  margin: auto;
+  border: 2px solid black;
+}
+
+.c {
+  display: inline-block;
+  background-color: red;
+  width: 27.5%;
+  height: 500px;
+  margin: auto;
+  border: 2px solid black;
+}
+
+@media screen and (max-width: 600px){
+  .a {
+    background-color: blue;
+    width: 100%;
+    height: 200px;
+    margin: 0px auto 20px;
+    border: 2px solid black;
+  }
+  
+  .b {
+    background-color: purple;
+    width: 100%;
+    height: 500px;
+    margin: 0px auto 20px;
+    border: 2px solid black;
+  }
+  
+  .c {
+    background-color: red;
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    border: 2px solid black;
+  }
+}
