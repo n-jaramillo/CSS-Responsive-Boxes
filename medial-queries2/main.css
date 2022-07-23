@@ -1,3 +1,58 @@
 body {
   background: papayawhip;
 }
+
+.container div {
+  border: 1px solid black;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.a {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.b {
+  width: 78%;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.c, .d, .e {
+  width: 25%;
+  height: 100px
+}
+
+.f {
+  margin-top: -210px;
+  width: 20%;
+  height: 310px;
+}
+
+@media screen and (max-width: 600px){
+  .a, .f {
+    width: 100%;
+    height: 150px;
+  }
+
+  .b {
+    width: 100%;
+    height: 300px;
+  }
+
+  .c, .d, .e {
+    width: 32%;
+    height: 100px;
+  }
+
+  .f {
+    margin-top: 10px;
+  }
+}
